@@ -13,7 +13,7 @@ jobs:
         with:
           node_version: 12
       - name: Run Test
-      - run: |
+        run: |
           npm install 
           npm test
         
